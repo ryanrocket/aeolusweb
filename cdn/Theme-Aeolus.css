@@ -1,0 +1,92 @@
+html, body, head {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 500;
+}
+[rw-font="code"] {
+    font-family: monospace;
+    color: rgb(209, 209, 209);
+    font-size: 14px;
+}
+[rw-font="main"] {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+[rw-upper] {text-transform: uppercase!important;}
+[rw-color="fore"] {color: white;}
+[rw-color="back"] {color: #4a4a4a;}
+[rw-color="background"] {color: #f5f5f5;}
+[rw-color="border"] {color: #e2e2e2;}
+[rw-color="stand"] {color: black;}
+[rw-color="theme1"] {color: #002f87;}
+[rw-color="theme2"] {color: #00afef;}
+[rw-color="dark"] {color: #041e41;}
+[rw-color="light"] {color: #b1b1b1;}
+[rw-shad="small"] {box-shadow: rgba(0, 0, 0, 0.2) 0px 0.2rem 0.4rem 0px;}
+[rw-radius] {border-radius: 3px;}
+[rw-bg="gradient"] {background: linear-gradient(135deg, #002f87 0%, #00afef 100%);}
+[rw-bg="dark"] {background-color: #041e41!important;}
+[rw-bg="light"] {background-color: #b1b1b1!important;}
+[rw-bg="theme"] {background-color: #00afef!important;}
+[rw-restrict] {
+    position: relative;
+    max-width: 75em;
+    margin: 0px auto;
+}
+[rw-invert] {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+[rw-topsmall] {padding-top: 10px!important;}
+[rw-rightsmall] {padding-right: 10px!important;}
+[rw-mrightsmall] {margin-right: 10px!important;}
+[rw-topmed] {padding-top: 20px!important;}
+[rw-rightmed] {padding-right: 20px!important;}
+[rw-part="grabber"] {
+    max-height: 45em;
+    min-height: 37em;
+}
+[rw-part="alert"] {
+    width: 100%;
+    text-align: center;
+    padding: 7px 0px;
+    background-color: #041e41!important;
+    font-size: 15px;
+}
+[rw-navlink] {
+    font-size: 14px;
+    color: #fff!important;
+    background: none;
+    margin-left: 20px;
+    cursor: pointer;
+}
+[rw-fright] {
+    float: right!important;;
+}
+[rw-right] {
+    position: absolute;
+    right: 0;
+}
+[rw-btn1] {border:none;height: 30px;min-width: 130px;font-size: 14px;letter-spacing: .5px;padding: 0px 15px;}
+[rw-btn2] {
+    font-size: 14px;
+    border: white 1px solid;
+    height: 30px;min-width: 130px;
+    background: none!important;
+    padding: 0px 15px;
+    letter-spacing: .5px;
+} 
+[rw-btn3] {border:none;height: 40px;min-width: 130px;font-size: 14px;letter-spacing: .5px;padding: 0px 15px;}
+[rw-btn4] {
+    font-size: 14px;
+    border: white 1px solid;
+    height: 40px;min-width: 130px;
+    background: none!important;
+    padding: 0px 15px;
+    letter-spacing: .5px;
+} 
+[rw-pophov]:hover {
+    transform: scale(1.1);
+}
